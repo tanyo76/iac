@@ -1,0 +1,6 @@
+Ec2Instance:
+  Type: AWS::EC2::Instance
+  Properties:
+    AvailabilityZone: use1-az1
+    ImageId: ami-1234567890abcdef0
+    InstanceType: t2.micro
